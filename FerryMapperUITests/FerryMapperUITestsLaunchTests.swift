@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class MapTestUITestsLaunchTests: XCTestCase {
+final class FerryMapperUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

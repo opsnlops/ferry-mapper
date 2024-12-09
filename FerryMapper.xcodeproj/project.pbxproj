@@ -16,14 +16,14 @@
 			containerPortal = 1102B7142CFC2D1300F3F23D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1102B71B2CFC2D1300F3F23D;
-			remoteInfo = MapTest;
+			remoteInfo = FerryMapper;
 		};
 		1102B7382CFC2D1400F3F23D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1102B7142CFC2D1300F3F23D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1102B71B2CFC2D1300F3F23D;
-			remoteInfo = MapTest;
+			remoteInfo = FerryMapper;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -47,11 +47,6 @@
 		1102B73A2CFC2D1400F3F23D /* FerryMapperUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = FerryMapperUITests;
-			sourceTree = "<group>";
-		};
-		1102B76B2CFC4A1F00F3F23D /* Playgrounds */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -85,7 +80,6 @@
 		1102B7132CFC2D1300F3F23D = {
 			isa = PBXGroup;
 			children = (
-				1102B76B2CFC4A1F00F3F23D /* Playgrounds */,
 				1102B71E2CFC2D1300F3F23D /* FerryMapper */,
 				1102B7302CFC2D1400F3F23D /* FerryMapperTests */,
 				1102B73A2CFC2D1400F3F23D /* FerryMapperUITests */,
@@ -120,13 +114,12 @@
 			);
 			fileSystemSynchronizedGroups = (
 				1102B71E2CFC2D1300F3F23D /* FerryMapper */,
-				1102B76B2CFC4A1F00F3F23D /* Playgrounds */,
 			);
 			name = FerryMapper;
 			packageProductDependencies = (
 				11FB87C72D06B7E300F49DDD /* SimpleKeychain */,
 			);
-			productName = MapTest;
+			productName = FerryMapper;
 			productReference = 1102B71C2CFC2D1300F3F23D /* FerryMapper.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -149,7 +142,7 @@
 			name = FerryMapperTests;
 			packageProductDependencies = (
 			);
-			productName = MapTestTests;
+			productName = FerryMapperTests;
 			productReference = 1102B72D2CFC2D1400F3F23D /* FerryMapperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -172,7 +165,7 @@
 			name = FerryMapperUITests;
 			packageProductDependencies = (
 			);
-			productName = MapTestUITests;
+			productName = FerryMapperUITests;
 			productReference = 1102B7372CFC2D1400F3F23D /* FerryMapperUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -404,10 +397,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MapTest/MapTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FerryMapper/FerryMapper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MapTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FerryMapper/Preview Content\"";
 				DEVELOPMENT_TEAM = YQ8A74NDMJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -444,10 +437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MapTest/MapTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FerryMapper/FerryMapper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MapTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FerryMapper/Preview Content\"";
 				DEVELOPMENT_TEAM = YQ8A74NDMJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -490,7 +483,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.opsnlops.MapTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.opsnlops.FerryMapperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -513,7 +506,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.opsnlops.MapTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.opsnlops.FerryMapperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -535,14 +528,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.opsnlops.MapTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.opsnlops.FerryMapperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = MapTest;
+				TEST_TARGET_NAME = FerryMapperTest;
 				XROS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Debug;
@@ -557,14 +550,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.opsnlops.MapTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.opsnlops.FerryMapperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = MapTest;
+				TEST_TARGET_NAME = FerryMapperTest;
 				XROS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
