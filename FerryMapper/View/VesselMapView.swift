@@ -23,7 +23,7 @@ struct VesselMapView: View {
         guard !vessels.isEmpty else {
             // If no vessels, default to Whidbey Island area or some fallback.
             return MKCoordinateRegion(
-                center: CLLocationCoordinate2D(latitude: 48.0379, longitude: -122.4458),
+                center: CLLocationCoordinate2D(latitude: 47.967693, longitude: -122.327357),
                 span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
             )
         }
